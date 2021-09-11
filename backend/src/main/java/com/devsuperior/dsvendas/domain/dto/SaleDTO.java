@@ -1,6 +1,6 @@
-package com.devsuperior.dsvendas.dto;
+package com.devsuperior.dsvendas.domain.dto;
 
-import com.devsuperior.dsvendas.entities.Sale;
+import com.devsuperior.dsvendas.domain.entity.Sale;
 
 import java.io.Serializable;
 import java.time.LocalDate;

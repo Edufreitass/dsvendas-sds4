@@ -1,11 +1,11 @@
-package com.devsuperior.dsvendas.service;
+package com.devsuperior.dsvendas.domain.service;
 
-import com.devsuperior.dsvendas.dto.SaleDTO;
-import com.devsuperior.dsvendas.dto.SaleSuccessDTO;
-import com.devsuperior.dsvendas.dto.SaleSumDTO;
-import com.devsuperior.dsvendas.entities.Sale;
-import com.devsuperior.dsvendas.repositories.SaleRepository;
-import com.devsuperior.dsvendas.repositories.SellerRepository;
+import com.devsuperior.dsvendas.domain.dto.SaleDTO;
+import com.devsuperior.dsvendas.domain.dto.SaleSuccessDTO;
+import com.devsuperior.dsvendas.domain.dto.SaleSumDTO;
+import com.devsuperior.dsvendas.domain.entity.Sale;
+import com.devsuperior.dsvendas.infrastructure.repository.SaleRepository;
+import com.devsuperior.dsvendas.infrastructure.repository.SellerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

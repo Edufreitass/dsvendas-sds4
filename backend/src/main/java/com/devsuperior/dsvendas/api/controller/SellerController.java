@@ -1,7 +1,7 @@
-package com.devsuperior.dsvendas.controllers;
+package com.devsuperior.dsvendas.api.controller;
 
-import com.devsuperior.dsvendas.dto.SellerDTO;
-import com.devsuperior.dsvendas.service.SellerService;
+import com.devsuperior.dsvendas.domain.dto.SellerDTO;
+import com.devsuperior.dsvendas.domain.service.SellerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

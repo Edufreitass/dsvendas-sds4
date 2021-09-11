@@ -1,9 +1,9 @@
-package com.devsuperior.dsvendas.controllers;
+package com.devsuperior.dsvendas.api.controller;
 
-import com.devsuperior.dsvendas.dto.SaleDTO;
-import com.devsuperior.dsvendas.dto.SaleSuccessDTO;
-import com.devsuperior.dsvendas.dto.SaleSumDTO;
-import com.devsuperior.dsvendas.service.SaleService;
+import com.devsuperior.dsvendas.domain.dto.SaleDTO;
+import com.devsuperior.dsvendas.domain.dto.SaleSuccessDTO;
+import com.devsuperior.dsvendas.domain.dto.SaleSumDTO;
+import com.devsuperior.dsvendas.domain.service.SaleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

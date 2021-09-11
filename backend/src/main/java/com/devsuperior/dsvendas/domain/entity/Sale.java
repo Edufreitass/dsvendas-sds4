@@ -1,4 +1,4 @@
-package com.devsuperior.dsvendas.entities;
+package com.devsuperior.dsvendas.domain.entity;
 
 import javax.persistence.*;
 import java.time.LocalDate;

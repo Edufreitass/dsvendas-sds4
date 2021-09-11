@@ -1,6 +1,6 @@
-package com.devsuperior.dsvendas.dto;
+package com.devsuperior.dsvendas.domain.dto;
 
-import com.devsuperior.dsvendas.entities.Seller;
+import com.devsuperior.dsvendas.domain.entity.Seller;
 
 import java.io.Serializable;
 

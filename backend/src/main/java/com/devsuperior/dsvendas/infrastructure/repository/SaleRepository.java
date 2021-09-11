@@ -1,8 +1,8 @@
-package com.devsuperior.dsvendas.repositories;
+package com.devsuperior.dsvendas.infrastructure.repository;
 
-import com.devsuperior.dsvendas.dto.SaleSuccessDTO;
-import com.devsuperior.dsvendas.dto.SaleSumDTO;
-import com.devsuperior.dsvendas.entities.Sale;
+import com.devsuperior.dsvendas.domain.dto.SaleSuccessDTO;
+import com.devsuperior.dsvendas.domain.dto.SaleSumDTO;
+import com.devsuperior.dsvendas.domain.entity.Sale;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
